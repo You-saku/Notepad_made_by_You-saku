@@ -1,0 +1,73 @@
+h2{
+    text-align:center;
+}
+
+h3 p{
+    text-align: center;
+    color: #00a381;
+}
+
+#extentions{
+    text-align: right;
+}
+
+textarea[name="Memo"]{
+    background-image: url("../img/hoshizora.png");
+    color: white;
+    border-radius: 1.0em;
+    padding: 1.0em;
+}
+
+textarea[name="Memo2"]{
+    background-color: lavender;
+    border-radius: 1.0em;
+    padding: 1.0em;
+}
+
+.option{
+    font-size: 30px;
+	font-weight:bold;
+    color: #e6b422
+}
+
+#save{
+    color: red;
+    border-radius: 10px;
+    background-color: moccasin;
+    cursor: pointer;
+}
+
+#load{
+    color: blue;
+    border-radius: 10px;
+    background-color: moccasin;
+    cursor: pointer;
+}
+
+#download{
+    color: black;
+    border-radius: 10px;
+    background-color: moccasin;
+    cursor: pointer;
+}
+
+#change{
+    color: darkviolet;
+    border-radius: 10px;
+    background-color: moccasin;
+    cursor: pointer;
+}
+
+#to_txt{
+    color: orange;
+    border-radius: 10px;
+    background-color: moccasin;
+    cursor: pointer;
+}
+
+#to_csv{
+    color: lightgreen;
+    border-radius: 10px;
+    background-color: moccasin;
+    cursor: pointer;
+}

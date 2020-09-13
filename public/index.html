@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自作メモ帳</title>
+</head>
+<link rel="stylesheet" type="text/css" href="./css/memo.css">
+<!-- scriptタグはつける位置で効果の範囲が変わる !? -->
+<body>
+    <h2>これはメモ帳です(自作)</h2>
+    <h3>
+        <p>左 : メモ帳</p>
+        <p>右 : メモされているテキスト(編集可能)</p>
+    </h3>
+
+    <center>
+        <form name="form1">
+            <textarea name="Memo" rows="20" cols="65" placeholder="ここへ記述してください"></textarea>
+            <textarea name="Memo2" rows="20" cols="65" placeholder="メモされた記述"></textarea>
+        </form>
+    </center>
+
+    <p id="extentions"></p>
+
+    <center>
+        <p class="option">オプションボタン</p>
+        <p>
+            <input id="save" type="button" value="メモ" onclick=save();>
+            <input id="load" type="button" value="メモ取得" onclick=load()>
+            <input id="download" type="button" value="ダウンロード(拡張子デフォルト=.txt)" onclick=download()>
+        </p>
+    </center>
+
+    <center>
+        <p>
+            <input id="change" type="button" value="拡張子設定" onclick=change()>
+            <input id="to_txt" type="button" value="txt変換" onclick=to_txt()>
+            <input id="to_csv" type="button" value="csv変換" onclick=to_csv()>
+        </p>
+    </center>
+</body>
+<script src="./script/memo.js"></script><!--　ここ大事　-->
+</html>
